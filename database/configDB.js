@@ -3,7 +3,7 @@ const mongose = require('mongoose');
 
 const dbConnection = () =>{
     try {
-        mongose.connect( process.env.MONGODB_CNN, {
+        mongose.connect( process.env.MONGODB_CNN_MARKERS, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
